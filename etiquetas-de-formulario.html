@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+  <form action="Enviar,php" method="GET">
+    <fieldset>
+        <legend> Primera práctica</legend>
+        <label for="tunombre"> Nombre</label>
+        <input id="tunombre" type="text" name="tuNombrecli" >
+        <label for="TuCorreo"> Tu correo</label>
+        <input type="email" id="TuCorreo" name="Tucorreocli">
+        <button>Enviar</button>
+        <input type="reset" name="reseteo">
+    </fieldset>
+    <fieldset>
+        <legend>Probando tipos de input</legend>
+        <select name="seleccion">
+            <option value="Valor_1" selected>Chile </option>
+            <option value="valor_2">Argentina</option>
+            <option value="valor_3">Venezuela</option>
+
+        </select>
+    </fieldset>
+    
+
+  </form>  
+</body>
+</html>
