@@ -1,0 +1,95 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+ul{
+    display: flex;
+       
+}
+li{
+    list-style: none;
+    margin-right: 10px;
+    background-color: rgb(38, 0, 255);
+    color: white;
+    border-radius: 10%;
+    padding: 5px;
+}
+
+.menu p{
+    background-color: rgb(38, 0, 255);
+    color: white;
+    padding: 5px;
+    border-radius: 10%;
+}
+header{
+    background-image: url('../img/dna-fondo.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    
+}
+.titular{
+    text-align: center;
+    color: white;
+    margin-top: 250px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(38, 0, 255);
+    padding: 5px;
+    border-radius: 10%;
+}
+.contenedor{
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+.tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.biog{
+    width: 40%;
+    margin-bottom: 30px;
+    padding: 25px;
+    color:white;
+
+}
+.tarjetas img{
+    width: 15%;
+    float: right;
+}
+.celeste{
+    background-color: royalblue;
+}
+.violeta{
+    background-color: rgb(38, 0, 255);
+}
+.biografias{
+    background-image: url(../img/planeta.jpg);
+}
+.pie{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    background-color: teal;
+}
+h5{
+    color: white;
+    font-size: 30px;
+}
+.icono{
+    background: none;
+}
